@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "net.antymology.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "BounceMixin",
+    "FallDamageMixin",
+    "FastEatingMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+	}
+}

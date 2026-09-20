@@ -1,0 +1,21 @@
+{
+  "type": "origins:multiple",
+  "speed": {
+    "type": "simple_slime:fast_eating",
+    "speed": 3
+  },
+  "hunger": {
+    "type": "origins:modify_exhaustion",
+    "modifier": {
+      "value": 1,
+      "operation": "multiply_base"
+    }
+  },
+  "badges": [
+    {
+      "type": "origins:tooltip",
+      "sprite": "origins:textures/gui/badge/info.png",
+      "text": "Food is consumed at thrice the rate."
+    }
+  ]
+}

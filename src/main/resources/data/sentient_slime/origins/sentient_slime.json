@@ -1,0 +1,12 @@
+{
+  "powers": [
+    "sentient_slime:bouncy",
+    "sentient_slime:substance",
+    "sentient_slime:launchable",
+    "sentient_slime:hunger",
+    "sentient_slime:resonant_crux"
+  ],
+  "icon": "sentient_slime:attuned_slimeball",
+  "order": 1,
+  "impact": 2
+}

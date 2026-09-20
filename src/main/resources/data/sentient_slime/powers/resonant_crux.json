@@ -1,0 +1,33 @@
+{
+  "type": "origins:multiple",
+  "emit_event": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:emit_game_event",
+      "event": "minecraft:step"
+    },
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:gamemode",
+          "gamemode": "creative",
+          "inverted": true
+        },
+        {
+          "type": "origins:gamemode",
+          "gamemode": "spectator",
+          "inverted": true
+        }
+      ]
+    }
+  },
+  "experience": {
+    "type": "origins:action_over_time",
+    "interval": 1200,
+    "entity_action": {
+      "type": "origins:execute_command",
+      "command": "xp add @s 1 points"
+    }
+  }
+}

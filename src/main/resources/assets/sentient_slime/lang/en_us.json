@@ -1,0 +1,21 @@
+{
+  "origin.sentient_slime.sentient_slime.name": "Sentient Slime",
+  "origin.sentient_slime.sentient_slime.description": "Ordinary piles of sludge given thought by the cogitating properties of amethyst, these slimes traverse the world through their strange physics and functional minds.",
+
+  "power.sentient_slime.bouncy.name": "Coefficient of Restitution",
+  "power.sentient_slime.bouncy.description": "Unless you crouch, you will bounce when colliding with any surface at enough velocity in any direction and jump much higher.",
+
+  "power.sentient_slime.substance.name": "Substance",
+  "power.sentient_slime.substance.description": "Being made of slime, you are capable of absorbing almost anything. Placing items within yourself increases your size.",
+
+  "power.sentient_slime.launchable.name": "Launchable",
+  "power.sentient_slime.launchable.description": "Due to your properties, you suffer much more volatile knockback, for better or worse.",
+
+  "power.sentient_slime.hunger.name": "Voracity",
+  "power.sentient_slime.hunger.description": "Your very nature bores a great hunger, requiring you to eat much more often, yet allowing you to consume food quickly.",
+
+  "power.sentient_slime.resonant_crux.name": "Resonant Crux",
+  "power.sentient_slime.resonant_crux.description": "Your amethyst imbuement results in a constant hum that, while granting experience over time, will also emit inaudible sound that is detectable by sculk.",
+
+  "effect.sentient_slime.bouncy": "Bouncy"
+}

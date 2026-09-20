@@ -1,0 +1,53 @@
+{
+  "type": "origins:multiple",
+  "bouncy": {
+    "type": "sentient_slime:bouncy",
+    "amount": 0.9
+  },
+  "jump": {
+    "type": "origins:modify_jump",
+    "modifier": {
+      "operation": "addition",
+      "value": 0.4
+    },
+    "condition": {
+      "type": "origins:sneaking",
+      "inverted": true
+    }
+  },
+  "no_impact": {
+    "type": "origins:invulnerability",
+    "damage_condition": {
+      "type": "origins:or",
+      "conditions": [
+        {
+          "type": "origins:name",
+          "name": "fall"
+        },
+        {
+          "type": "origins:name",
+          "name": "anvil"
+        },
+        {
+          "type": "origins:name",
+          "name": "fallingBlock"
+        },
+        {
+          "type": "origins:name",
+          "name": "flyIntoWall"
+        },
+        {
+          "type": "origins:name",
+          "name": "fall"
+        }
+      ]
+    }
+  },
+  "badges": [
+    {
+      "type": "origins:tooltip",
+      "sprite": "origins:textures/gui/badge/info.png",
+      "text": "You do not take damage from impacts."
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "type": "origins:action_when_hit",
+  "bientity_action": {
+    "type": "origins:add_velocity",
+    "z": 2
+  }
+}
